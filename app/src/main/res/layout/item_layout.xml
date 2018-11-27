@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    android:background="@drawable/radius"
+
+
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:background="@drawable/radius"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+
+        >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:background="@color/agresiveGray"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            />
+
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/devider"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.7"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:id="@+id/lineNumber"
+                android:text="IDNumber"
+                android:textColor="@color/famousRed"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="5dp"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:id="@+id/lineNumberEnd"
+                android:text="IDNumber"
+                android:textColor="@color/famousRed"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src ="@drawable/listbutt2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="6dp"
+
+        />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lineName"
+        android:text="333"
+        android:textColor="@color/famousRed"
+        android:textSize="28sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+
+
+
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@drawable/radius"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+
+        >
+
+        <TextView
+            android:id="@+id/stanicadb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="IME NEKE STANICE"
+            android:layout_marginLeft="35dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/famousRed"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src ="@drawable/listbutt2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+
+        />
+
+
+
+
+</RelativeLayout>
